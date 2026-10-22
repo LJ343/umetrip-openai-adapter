@@ -42,4 +42,4 @@ sudo python3 /opt/openai-proxy-backups/20261022-185430-before-card-hint-producti
 
 如只需暂停新清理规则，可将实际 `.env` 的 `STRIP_CARD_HINTS` 改为 `false` 后重启；这会继续使用新源码，完整版本恢复请用上面的回退命令。
 
-Git 标签 `pre-card-hint-filter-20261022` 保存发布前源码，`card-hints-20261022` 保存此次规则源码。Git 标签不包含服务器密钥和 systemd 状态，完整部署回退以服务器备份为准。远端上传是否完成以实际 push 结果为准。
+Git 标签 `pre-card-hint-filter-20261022` 保存发布前源码，`card-hints-20261022.1` 保存此次最终规则源码（`card-hints-20261022` 为首次发布版本）。Git 标签不包含服务器密钥和 systemd 状态，完整部署回退以服务器备份为准。远端上传是否完成以实际 push 结果为准。

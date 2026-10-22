@@ -59,6 +59,16 @@ class CardHintBoundaryTests(unittest.TestCase):
         for source in ('您可按需点击下方卡片查看详情，但订单已提交。', '您可按需点击下方卡片查看详情，未下单但已锁座。'):
             self.verify(source, source)
 
+    def test_result_card_heading_keeps_parenthesis_and_unique_qualifiers(self):
+        for source, expected in (
+            ('以下为查询结果卡片，点击可查看房型详情（仅查询，不做预订）：', '（仅查询，不做预订）：'),
+            ('以下为查询结果卡片，点击可查看房型详情（退款手续费50元）。', '（退款手续费50元）。'),
+            ('以下为查询结果卡片，点击可查看房型详情，但房型不可退。', '以下为查询结果卡片，点击可查看房型详情，但房型不可退。'),
+            ('以下为查询结果卡片，点击可查看房型详情，价格不含税。', '以下为查询结果卡片，点击可查看房型详情，价格不含税。'),
+            ('以下为查询结果卡片：', ''),
+        ):
+            self.verify(source, expected)
+
     def test_route_relationship_and_complete_flight_identifier(self):
         for source in (
             '广州到北京，上海到成都。需要的话可以点下方卡片查看更多广州—成都的航班：',
