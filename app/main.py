@@ -20,6 +20,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, StreamingResponse
 
 from .conversation_log import ConversationAuditMiddleware, safe_headers
+from .card_hints import CardHintFilter
 
 
 def _env_bool(name: str, default: bool) -> bool:
@@ -53,6 +54,9 @@ TEXT_END_SEPARATOR = os.getenv("TEXT_END_SEPARATOR", "").replace("\\n", "\n")
 NONSTREAM_FINAL_SEGMENT_ONLY = _env_bool("NONSTREAM_FINAL_SEGMENT_ONLY", False)
 # 删除自家 App 渲染用的卡片标签，例如 <flightstatuslist_card>{...}</flightstatuslist_card>
 STRIP_CARDS = _env_bool("STRIP_CARDS", True)
+STRIP_CARD_HINTS = _env_bool("STRIP_CARD_HINTS", False)
+CARD_HINT_MAX_CHARS = int(os.getenv("CARD_HINT_MAX_CHARS", "128"))
+CARD_HINT_MAX_WAIT_MS = float(os.getenv("CARD_HINT_MAX_WAIT_MS", "200"))
 CARD_TAG_PATTERN = os.getenv("CARD_TAG_PATTERN", r"[A-Za-z0-9_]+_card")
 # 把上游的思考过程（thinking_delta）转成 delta.reasoning_content 输出
 EMIT_REASONING = _env_bool("EMIT_REASONING", True)
@@ -222,7 +226,7 @@ class UpstreamStream:
     chunks() 产出 (段号, chunk)，流式和非流式消费相同的结果。
     """
 
-    def __init__(self, resp: httpx.Response, request_id: str, model: str):
+    def __init__(self, resp: httpx.Response, request_id: str, model: str, allow_hint_filter: bool = True):
         self.resp = resp
         self.trace = resp.extensions.get("conversation_trace")
         self.request_id = request_id
@@ -237,6 +241,8 @@ class UpstreamStream:
         self._pending_text_sep = False
         self._stripper = CardStripper(CARD_TAG_PATTERN) if STRIP_CARDS else None
         self._other_strippers: Dict[str, CardStripper] = {}
+        self._hints = CardHintFilter(CARD_HINT_MAX_CHARS, CARD_HINT_MAX_WAIT_MS / 1000,
+                                    self._record_hint_removal) if STRIP_CARDS and STRIP_CARD_HINTS and allow_hint_filter else None
         self.done = False
         self.finish_reason: Optional[str] = None
         self.has_payload = False
@@ -255,7 +261,10 @@ class UpstreamStream:
                 f" first_reasoning_ms={elapsed(self.first_reasoning_at)}"
                 f" first_upstream_text_ms={elapsed(self.first_text_at)}"
                 f" reasoning_chars={self.reasoning_chars} source_events={self.source_events}"
-                f" tool_starts={self.tool_starts} tool_results={self.tool_results}")
+                f" tool_starts={self.tool_starts} tool_results={self.tool_results}"
+                + (f" card_hints_removed={self._hints.removals} hint_timeouts={self._hints.timeouts}"
+                   f" hint_max_hold_ms={self._hints.max_held_ms:.3f} hint_cpu_ms={self._hints.cpu_ns / 1e6:.3f}"
+                   if self._hints else ""))
 
     def _chunk(self, delta: Dict[str, Any], finish_reason: Optional[str] = None) -> Dict[str, Any]:
         return {
@@ -273,7 +282,16 @@ class UpstreamStream:
             self.first_text_at = time.monotonic()
         if self._stripper:
             text = self._stripper.feed(text)
+        if self._hints:
+            text = self._hints.feed(text)
         return self._decorate(text)
+
+    def _record_hint_removal(self, **fields):
+        if self.trace is not None:
+            self.trace.record("proxy_card_hint_removed", offset_scope="model_content_after_card_removal", **fields)
+
+    def _flush_hint(self, complete=False):
+        return self._decorate(self._hints.flush(complete)) if self._hints else ""
 
     def _decorate(self, text: str) -> str:
         if not text:
@@ -285,7 +303,10 @@ class UpstreamStream:
         return text
 
     def _flush_text(self) -> str:
-        return self._decorate(self._stripper.flush()) if self._stripper else ""
+        text = self._stripper.flush() if self._stripper else ""
+        if self._hints:
+            text = self._hints.feed(text) + self._hints.flush(complete=True)
+        return self._decorate(text)
 
     def _other_text(self, field: str, value: str) -> str:
         if not STRIP_CARDS:
@@ -310,33 +331,83 @@ class UpstreamStream:
         out.append((self.segment, self._chunk({}, self.finish_reason)))
         return out
 
+    async def _source_lines(self):
+        # A timer must wake even if the next upstream line never arrives. Shield the
+        # one pending read instead of cancelling httpx's iterator on each deadline.
+        iterator = self.resp.aiter_lines().__aiter__()
+        pending_read = None
+        try:
+            while True:
+                deadline = self._hints.deadline if self._hints else None
+                if pending_read is None and deadline is None:
+                    yield await iterator.__anext__()
+                    continue
+                if pending_read is None:
+                    pending_read = asyncio.create_task(iterator.__anext__())
+                timeout = max(0, deadline - time.monotonic()) if deadline is not None else None
+                ready, _ = await asyncio.wait({pending_read}, timeout=timeout)
+                if not ready:
+                    yield None
+                    continue
+                result, pending_read = pending_read, None
+                yield result.result()
+        except StopAsyncIteration:
+            return
+        finally:
+            if pending_read is not None:
+                pending_read.cancel()
+                with suppress(asyncio.CancelledError, Exception):
+                    await pending_read
+            await iterator.aclose()
+
     async def chunks(self) -> AsyncIterator[Tuple[int, Dict[str, Any]]]:
         event: Optional[str] = None
         data_lines: List[str] = []
-        async for line in self.resp.aiter_lines():
-            if self.trace is not None:
-                self.trace.record("upstream_sse_line", text=line)  # httpx 规范化换行；内容在卡片过滤前记录。
-            if line == "":
-                if data_lines:
-                    for item in self._handle(event, "\n".join(data_lines)):
-                        yield item
-                    if self.done:
-                        return
-                event, data_lines = None, []
-                continue
-            if line.startswith(":"):
-                continue
-            field, _, value = line.partition(":")
-            value = value[1:] if value.startswith(" ") else value
-            if field == "event":
-                event = value.strip()
-            elif field == "data":
-                data_lines.append(value)
-        if data_lines:
-            for item in self._handle(event, "\n".join(data_lines)):
-                yield item
-        if not self.done:
-            raise UpstreamStreamError("Upstream disconnected before [DONE]", "incomplete_stream")
+        lines = self._source_lines()
+        try:
+            async for line in lines:
+                if line is None:
+                    text = self._decorate(self._hints.expire())
+                    if text:
+                        yield self.segment, self._chunk({"content": text})
+                    continue
+                if self.trace is not None:
+                    self.trace.record("upstream_sse_line", text=line)
+                if line == "":
+                    if data_lines:
+                        for item in self._handle(event, "\n".join(data_lines)):
+                            yield item
+                        if self.done:
+                            return
+                    event, data_lines = None, []
+                    continue
+                if line.startswith(":"):
+                    continue
+                field, _, value = line.partition(":")
+                value = value[1:] if value.startswith(" ") else value
+                if field == "event":
+                    event = value.strip()
+                elif field == "data":
+                    data_lines.append(value)
+            if data_lines:
+                for item in self._handle(event, "\n".join(data_lines)):
+                    yield item
+            if not self.done:
+                raise UpstreamStreamError("Upstream disconnected before [DONE]", "incomplete_stream")
+        except Exception:
+            # Failure must not silently discard buffered, unconfirmed business text.
+            tail = self._flush_hint()
+            if tail:
+                yield self.segment, self._chunk({"content": tail})
+            raise
+        finally:
+            await lines.aclose()
+            if self._hints and self.trace is not None:
+                self.trace.record("proxy_card_hint_summary", removed=self._hints.removals,
+                                  timeouts=self._hints.timeouts, overflows=self._hints.overflows,
+                                  max_pending_chars=self._hints.max_pending_chars,
+                                  max_hold_ms=round(self._hints.max_held_ms, 3),
+                                  scan_cpu_ms=round(self._hints.cpu_ns / 1e6, 4))
 
     def _handle(self, event: Optional[str], data: str) -> List[Tuple[int, Dict[str, Any]]]:
         if self.first_event_at is None:
@@ -441,17 +512,19 @@ class UpstreamStream:
         return out
 
     def _business(self, value: Any) -> List[Tuple[int, Dict[str, Any]]]:
+        tail = self._flush_hint()
+        out = [(self.segment, self._chunk({"content": tail}))] if tail else []
         if value is None or value == {} or value == "":
-            return []
+            return out
         self.has_payload = True
         cleaned = strip_cards(value)
         text = cleaned if isinstance(cleaned, str) else json.dumps(cleaned, ensure_ascii=False, indent=2)
         if not text:
-            return []
+            return out
         # 独立业务结果必须与模型正文分开，内部字段不伪造成客户端待执行的 tool_calls。
         self._segment_has_text = self._any_text = True
         self._pending_text_sep = False
-        return [(self.segment, self._chunk({"content": "\n\n" + text + "\n\n"}))]
+        return out + [(self.segment, self._chunk({"content": "\n\n" + text + "\n\n"}))]
 
     def _handle_event(self, event: str, data: str) -> List[Tuple[int, Dict[str, Any]]]:
         if event == "tool_call_start":
@@ -486,13 +559,15 @@ class UpstreamStream:
         elif event in {"prepare_model_input", "thinking_end", "tool_call_start"}:
             return []
         elif event == "text_end":
+            tail = self._flush_hint(complete=True)
+            out = [(self.segment, self._chunk({"content": tail}))] if tail else []
             if self._segment_has_text:
                 self.segment += 1
                 self._segment_has_text = False
                 self._pending_text_sep = True
             if isinstance(payload, dict) and payload.get("data") is not None:
-                return self._business(payload["data"])
-            return []
+                return out + self._business(payload["data"])
+            return out
         elif event == "error":
             raise UpstreamStreamError(data)
         elif event == "tool_result_end":
@@ -593,7 +668,8 @@ def streaming_response(client: httpx.AsyncClient, upstream_req: httpx.Request,
                 await queue.put(("mapped_error", json.loads(error.body)))
                 return
             assert resp is not None
-            upstream = UpstreamStream(resp, request_id, model)
+            upstream = UpstreamStream(resp, request_id, model,
+                                      allow_hint_filter=upstream_req.extensions.get("card_hint_filter_allowed", True))
             upstream.created = created
             async for _, item in upstream.chunks():
                 await queue.put(("chunk", item))
@@ -899,6 +975,11 @@ async def chat_completions(request: Request):
                      headers=safe_headers(upstream_req.headers), history_mode=history_mode,
                      session_source=session_source, session_hash=hashlib.sha256(session_id.encode()).hexdigest()[:16])
         upstream_req.extensions["conversation_trace"] = trace
+    response_format = body.get("response_format")
+    modalities = body.get("modalities")
+    upstream_req.extensions["card_hint_filter_allowed"] = (
+        (response_format is None or isinstance(response_format, dict) and response_format.get("type", "text") == "text")
+        and (modalities is None or isinstance(modalities, list) and "text" in modalities))
     if stream:
         response_format = body.get("response_format")
         allow_wait = response_format is None or (
@@ -931,7 +1012,8 @@ async def nonstream_response(client, upstream_req, request_id, model, started):
         return error
     assert resp is not None
 
-    upstream = UpstreamStream(resp, request_id, model)
+    upstream = UpstreamStream(resp, request_id, model,
+                                      allow_hint_filter=upstream_req.extensions.get("card_hint_filter_allowed", True))
 
     def log_done(status: str, extra: str = ""):
         log.info("request_id=%s model=%s stream=%s status=%s ttft_ms=%s upstream_headers_ms=%d total_ms=%d%s%s",
