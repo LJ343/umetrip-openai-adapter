@@ -1,0 +1,198 @@
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"role":"assistant","content":"已"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"为您查询到"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 2026年1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"0月22日"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"（周四）"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"北京"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"南—上海"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"虹"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"桥 9:"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"00"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"–1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"2:"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"00 出发的"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"高铁，共 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"12 趟"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，以下是"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"二等"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"座有余票的"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 3 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"趟推荐：\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n| 车"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"次 | 出发—"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"到达 | 历时 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 二等座余票 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 二等座"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"票价 |\n|"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"---|--"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"-|---|-"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"--|---"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"|\n| "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"G6"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"69 | "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"09:07—14"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":":59 | "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"5小时52分"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" | 有票 |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" ¥576"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" |\n| "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"G643 |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 09:18—1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"5:2"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"0 | 6"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"小时2分"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" | 有票"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" | ¥57"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"6 |\n| "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"G735 | "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"11:13—17"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":":38 | 6"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"小时25分 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 有票"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" ¥598"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" |\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n主推 **"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"G669"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"**：0"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"9"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":":07 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"发"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"车"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"、1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"4:59"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 到达"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"上"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"海虹"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"桥，二等"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"座 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"¥"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"576"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，票"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"量"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"充足；G73"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"5 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"虽票价稍高但"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"发车更晚，适"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"合不想太"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"早出门。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"G7"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"（0"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"9:00）和"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"G693（0"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"9"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":":47）二"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"等"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"座已显示"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"候补"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"G9（10"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":":00"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"）"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"仅剩 5"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 张，暂未列入推荐。以上均为单人成人票价，仅查询不占座。\n\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"<train_card>"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"{\"pageId\":\"22500002\",\"version\":\"2.0\",\"jumpParams\":{\"deptInfo\":{\"cityName\":\"北京\",\"stationName\":\"北京南\",\"stationCode\":\"VNP\"},\"destInfo\":{\"cityName\":\"上海\",\"stationName\":\"上海虹桥\",\"stationCode\":\"AOH\"},\"deptDate\":\"2026-10-22\",\"deptTime\":1792627200000,\"highSpeedTrain\":1,\"studentTicket\":false},\"recommendList\":[{\"trainCode\":\"G669\",\"startTime\":\"09:07\",\"arrivalTime\":\"14:59\",\"arriveDays\":0,\"deptStationName\":\"北京南\",\"destStationName\":\"上海虹桥\",\"travelTimeName\":\"5小时52分\",\"trainType\":\"15\",\"trainTypeName\":\"高铁\",\"lowestPrice\":\"576\",\"seatInfoList\":[{\"seatType\":10,\"seatTypeName\":\"二等\",\"count\":\"有\",\"price\":576},{\"seatType\":11,\"seatTypeName\":\"一等\",\"count\":\"有\",\"price\":967},{\"seatType\":13,\"seatTypeName\":\"商务\",\"count\":\"6\",\"price\":2156},{\"seatType\":1,\"seatTypeName\":\"无座\",\"count\":\"有\",\"price\":576}],\"pageId\":\"22500003\",\"version\":\"1.0\",\"jumpParams\":{\"deptDate\":\"2026-10-22\",\"fromStationCode\":\"VNP\",\"toStationCode\":\"AOH\",\"trainNo\":\"240000G66920\",\"trainCode\":\"G669\",\"source\":\"aiAssisstant\",\"preBook\":false,\"isTransfer\":false,\"isSoldOut\":false,\"lastSource\":\"智能助手\"}},{\"trainCode\":\"G643\",\"startTime\":\"09:18\",\"arrivalTime\":\"15:20\",\"arriveDays\":0,\"deptStationName\":\"北京南\",\"destStationName\":\"上海虹桥\",\"travelTimeName\":\"6小时2分\",\"trainType\":\"15\",\"trainTypeName\":\"高铁\",\"lowestPrice\":\"576\",\"seatInfoList\":[{\"seatType\":10,\"seatTypeName\":\"二等\",\"count\":\"有\",\"price\":576},{\"seatType\":11,\"seatTypeName\":\"一等\",\"count\":\"有\",\"price\":967},{\"seatType\":13,\"seatTypeName\":\"商务\",\"count\":\"16\",\"price\":2156},{\"seatType\":1,\"seatTypeName\":\"无座\",\"count\":\"有\",\"price\":576}],\"pageId\":\"22500003\",\"version\":\"1.0\",\"jumpParams\":{\"deptDate\":\"2026-10-22\",\"fromStationCode\":\"VNP\",\"toStationCode\":\"AOH\",\"trainNo\":\"240000G64300\",\"trainCode\":\"G643\",\"source\":\"aiAssisstant\",\"preBook\":false,\"isTransfer\":false,\"isSoldOut\":false,\"lastSource\":\"智能助手\"}},{\"trainCode\":\"G735\",\"startTime\":\"11:13\",\"arrivalTime\":\"17:38\",\"arriveDays\":0,\"deptStationName\":\"北京南\",\"destStationName\":\"上海虹桥\",\"travelTimeName\":\"6小时25分\",\"trainType\":\"15\",\"trainTypeName\":\"高铁\",\"lowestPrice\":\"598\",\"seatInfoList\":[{\"seatType\":10,\"seatTypeName\":\"二等\",\"count\":\"有\",\"price\":598},{\"seatType\":11,\"seatTypeName\":\"一等\",\"count\":\"有\",\"price\":1005},{\"seatType\":40,\"seatTypeName\":\"优选一等\",\"count\":\"9\",\"price\":1382},{\"seatType\":13,\"seatTypeName\":\"商务\",\"count\":\"13\",\"price\":1995},{\"seatType\":1,\"seatTypeName\":\"无座\",\"count\":\"有\",\"price\":598}],\"pageId\":\"22500003\",\"version\":\"1.0\",\"jumpParams\":{\"deptDate\":\"2026-10-22\",\"fromStationCode\":\"VNP\",\"toStationCode\":\"AOH\",\"trainNo\":\"240000G73500\",\"trainCode\":\"G735\",\"source\":\"aiAssisstant\",\"preBook\":false,\"isTransfer\":false,\"isSoldOut\":false,\"lastSource\":\"智能助手\"}}]}"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"</train_card>"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-4c7e1e29634d4d31aca7145157015417","object":"chat.completion.chunk","created":1792564829,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{},"logprobs":null,"finish_reason":"stop"}]}
+
+data: [DONE]
+

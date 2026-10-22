@@ -1,0 +1,184 @@
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"role":"assistant","content":"正在查询北京首都机场的天气。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"北京首都"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"机场天气"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"（202"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"6年1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"0月21"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"日）：\n\n**"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"实况*"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"*\n- 天气"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"：*"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"*晴**\n-"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 气温：**"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"14℃"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"**\n- 风向"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"风力："},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"西北风 5"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 级\n-"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"能见度：9999 米（非"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"常好"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"）\n- 空气质"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"量：指数 7"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，为「优」"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n\n**No"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"tice**："},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"首"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"都机场此"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"前发布的大"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"风及风切"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"变警"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"报已经解除，目"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"前西北风已减小到 4"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"–7 米/秒"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，起降条件趋于正"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"常。\n\n**未"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"来几天预报**\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n| 日期 | 天"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"气 | 最高"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"/最低"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" |\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"|---|"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"---|--"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"-|\n| 今"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"天（10/2"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"1 周三"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"） | "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"晴 | 15"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"℃ / 2"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"℃ |\n| 明"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"天（10"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"/22） "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 晴 |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 16℃ /"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 4℃ |\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 10/2"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"3（周五） "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 晴 | "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"15℃ /"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 7℃ |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n| 10/"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"24（周六）"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" | 多云转小"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"雨 | 17"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"℃ / 8"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"℃ |\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 10/"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"25（周日）"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" | 小雨 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 13℃ "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"/ 7℃ "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"|\n| 1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"0/"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"26"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"（周"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"一） "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"多云"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"转晴"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" | 1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"5℃ / "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"5℃ "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"|\n\n今"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"天"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"天气不错，就"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"是风稍大、早"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"晚温差大（最低"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 2℃），去机场注意防风保暖。周六有小雨，出行记得带伞。\n\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"<jump_card>"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"{\"title\":\"查看首都机场天气\",\"pageId\":\"10300104\",\"jumpParams\":{\"airportCode\":\"PEK\",\"page\":\"weather\"},\"version\":\"1.0\"}"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"</jump_card>"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-651561e945c1480689d8fff5c0e51366","object":"chat.completion.chunk","created":1792550965,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{},"logprobs":null,"finish_reason":"stop"}]}
+
+data: [DONE]
+

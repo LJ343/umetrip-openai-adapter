@@ -1,0 +1,21 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Private conversation diagnostics
+logs/
+
+# Never publish runtime secrets, evidence or server backups
+.env.*
+!.env.example
+*.pem
+*.key
+*.bak*
+*.jsonl
+*.log
+outputs/
+work/
+backups/

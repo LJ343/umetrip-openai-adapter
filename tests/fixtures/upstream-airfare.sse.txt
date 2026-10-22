@@ -1,0 +1,96 @@
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"role":"assistant","content":"正在查询航班信息。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"查询遇到一点波动，正在重试。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"仍然没有返回结果，正在更换查询条件重试。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"查"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"询服"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"务"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"暂时没有返回结果，正在查找机票查询页面入口，方便您直接查看。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"很抱"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"歉，本次"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"北京到上海（20"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"26年10月2"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"2日"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"、"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"1"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"名成"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"人、经"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"济舱"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"）的机票查询"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"服务暂时未能返"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"回结果，"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"连"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"续尝试均"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"无响应，因"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"此暂"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"时无"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"法为您提供"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"具体"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"的航班号和票"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"价信息，请"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"您谅解。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n\n建议您稍"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"后"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"重试"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，或即"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"将为您打"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"开机票查询"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"页面，直接查看10月"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"22日北京到上海的经济舱航班与价格：\n\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"<jump_card>"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"{\"title\":\"打开机票查询\",\"pageId\":\"12000002\",\"jumpParams\":{\"airline\":\"ALL\",\"bigCabin\":\"Y\",\"departureDate\":\"2026-10-22\",\"deptCode\":\"BJS\",\"deptCodeType\":\"1\",\"destCode\":\"SHA\",\"destCodeType\":\"1\",\"hasChild\":\"0\",\"hasInfant\":\"0\",\"isRoundTrip\":\"0\",\"deptCityName\":\"北京\",\"destCityName\":\"上海\",\"deptIsCivil\":\"1\",\"destIsCivil\":\"1\",\"deptCountryName\":\"中国\",\"destCountryName\":\"中国\"},\"version\":\"1.0\"}"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"</jump_card>"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"请在打开的"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"页面"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"中确认航"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"班信息与价格后再下单，页面仅为查询入口，不会创建订单或占座。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-c1dd4989eb60469889e1448cfa3f7de8","object":"chat.completion.chunk","created":1792564782,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{},"logprobs":null,"finish_reason":"stop"}]}
+
+data: [DONE]
+

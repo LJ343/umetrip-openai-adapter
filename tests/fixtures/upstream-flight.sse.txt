@@ -1,0 +1,188 @@
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"role":"assistant","content":"正在查询 CA1831 航班的动态信息。"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"CA18"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"31 航班动"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"态如下（"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"2026年"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"10月21"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"日，北京时"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"间）："},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n\n**航班"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"概况"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"**"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n- "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"航空公司："},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"中国国航（"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"CA）\n- "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"航线：北京首"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"都 →"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 厦门高崎\n- "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"当前"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"状态：**"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"已到达**"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，正在下客\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n**起降时间*"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"*\n\n| | 计"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"划 |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 实际 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"| 延"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"误 |\n|-"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"--|---|"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"---|---"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"|\n| 起飞（首"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"都） | 0"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"6:30 |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 06"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":":33 |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" +3 分钟 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"|\n| 到达（"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"厦门） | 0"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"9:2"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"5 | 09"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":":12 | "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"早到 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"13 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"分钟 |"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n\n**航站"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"楼与登机口*"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"*\n- 北"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"京首都：T"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"3 航站楼"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，登机口 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"C06，机"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"位 30"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"6，值机"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"柜台 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"J01"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"–J32 "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"/ K01"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"–K"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"16\n- 厦门高"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"崎：T4 航"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"站楼，机"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"位 210"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，行李转盘"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"需约 25"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 分钟\n\n*"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"*其他"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"信息**"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"\n- 飞行里程"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"约 1774"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 公里，空中飞"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"行"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"时间约 2"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 小时 3"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"9 分钟\n- "},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"共享航班：Z"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"H183"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"1（深"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"航"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"）、"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"SC5647"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"（山航"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"）\n\n"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"航班已"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"于今早安全"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"抵达厦门，"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"起飞仅"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"晚点"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 3"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":" 分"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"钟，途中追回时间"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"，"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{"content":"最终提前 13 分钟落地。需要继续了解这趟航班的其他信息吗？"},"logprobs":null,"finish_reason":null}]}
+
+data: {"id":"chatcmpl-a8f70dcd78b94d3cac05e38d6e5e7e7a","object":"chat.completion.chunk","created":1792550947,"model":"qianrang","usage":null,"choices":[{"index":0,"delta":{},"logprobs":null,"finish_reason":"stop"}]}
+
+data: [DONE]
+
