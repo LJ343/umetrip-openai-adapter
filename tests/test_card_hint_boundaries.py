@@ -69,6 +69,16 @@ class CardHintBoundaryTests(unittest.TestCase):
         ):
             self.verify(source, expected)
 
+    def test_relative_recommendation_navigation(self):
+        for where in ('下方', '下面', '以下'):
+            for subject in ('航班', '酒店', '车次'):
+                for adjective in ('推荐', '的推荐', '推荐的', '的推荐的'):
+                    self.verify('点击' + where + adjective + subject + '可查看详情。', '')
+        self.verify('点击下方推荐酒店可查看详情，或查看更多酒店。', '')
+        for source in ('点击下方推荐酒店可查看详情，但该房型不可退。', '点击下方推荐酒店可查看每晚173元的房型。', '点击下方推荐酒店可查看详情（取消费50元）。'):
+            expected = '（取消费50元）。' if '（' in source else source
+            self.verify(source, expected)
+
     def test_route_relationship_and_complete_flight_identifier(self):
         for source in (
             '广州到北京，上海到成都。需要的话可以点下方卡片查看更多广州—成都的航班：',
