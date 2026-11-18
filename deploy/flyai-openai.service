@@ -1,0 +1,41 @@
+[Unit]
+Description=Isolated FlyAI OpenAI-compatible travel agent
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=flyai-agent
+Group=flyai-agent
+WorkingDirectory=/opt/flyai-openai
+# python-dotenv reads only /opt/flyai-openai/.env; no shared EnvironmentFile.
+ExecStart=/opt/flyai-openai/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8002 --workers 1 --no-access-log --timeout-keep-alive 5
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=15
+KillMode=control-group
+UMask=0077
+StateDirectory=flyai-openai
+StateDirectoryMode=0700
+Environment=STATE_DIR=/var/lib/flyai-openai
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/flyai-openai
+# Stay within a small share of the host. Adjust only after capacity inspection.
+MemoryHigh=256M
+MemoryMax=384M
+CPUQuota=50%
+TasksMax=32
+LimitNOFILE=256
+Nice=10
+StandardOutput=journal
+StandardError=journal
+LogRateLimitIntervalSec=30s
+LogRateLimitBurst=50
+
+[Install]
+WantedBy=multi-user.target

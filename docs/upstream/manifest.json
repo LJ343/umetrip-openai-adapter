@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/alibaba-flyai/flyai-skill",
+  "commit": "7a05a82fa0bda1c92e86230b07d375ed56ea90cb",
+  "cli_package": "@fly-ai/flyai-cli",
+  "cli_version": "1.0.16",
+  "cli_integrity": "sha512-Ksi06xvJSJcdhmfoDbpAnA84K4/pF+SkLsa5ZLvNruUc3e2EpoGaI6FcJXKTODvB/evprfy5pdRzW3lVazqfkA==",
+  "retrieved_date": "2026-11-11"
+}

@@ -1,0 +1,550 @@
+{
+  "recorded_at_beijing": "2026-11-18T15:50:07+08:00",
+  "purpose": "Sanitized historical response structure for offline regression only; URLs are synthetic and prices are not current quotes.",
+  "question": "帮我查一下西安到北京明天下午的航班信息",
+  "model_arguments": {
+    "origin": "西安",
+    "destination": "北京",
+    "dep_date": "2026-11-19",
+    "dep_hour_start": 12,
+    "dep_hour_end": 18,
+    "sort_type": 6
+  },
+  "broken_arguments": {
+    "origin": "西安",
+    "destination": "北京下午",
+    "dep_date": "2026-11-19",
+    "dep_hour_start": 12,
+    "dep_hour_end": 18,
+    "sort_type": 6
+  },
+  "result": {
+    "data": {
+      "itemList": [
+        {
+          "journeys": [
+            {
+              "journeyType": "直达",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 13:55:00",
+                  "arrStationCode": "PKX",
+                  "arrStationName": "大兴国际机场",
+                  "arrStationShortName": "大兴",
+                  "arrTerm": "",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 12:00:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T5",
+                  "depWeekAbbrName": "周四",
+                  "duration": "115",
+                  "marketingTransportName": "东航",
+                  "marketingTransportNo": "MU2107",
+                  "miles": "",
+                  "quantity": "7",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "115",
+              "transferDuration": ""
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-1",
+          "tags": [
+            "耗时最短"
+          ],
+          "ticketPrice": "350.00",
+          "totalDuration": "115"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "直达",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 14:55:00",
+                  "arrStationCode": "PEK",
+                  "arrStationName": "首都国际机场",
+                  "arrStationShortName": "首都",
+                  "arrTerm": "T3",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 12:30:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T2",
+                  "depWeekAbbrName": "周四",
+                  "duration": "145",
+                  "marketingTransportName": "国航",
+                  "marketingTransportNo": "CA1290",
+                  "miles": "",
+                  "quantity": "4",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "145",
+              "transferDuration": ""
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-2",
+          "tags": null,
+          "ticketPrice": "1950.00",
+          "totalDuration": "145"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "直达",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 15:00:00",
+                  "arrStationCode": "PKX",
+                  "arrStationName": "大兴国际机场",
+                  "arrStationShortName": "大兴",
+                  "arrTerm": "",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 13:00:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T5",
+                  "depWeekAbbrName": "周四",
+                  "duration": "120",
+                  "marketingTransportName": "东航",
+                  "marketingTransportNo": "MU2109",
+                  "miles": "",
+                  "quantity": "8",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "120",
+              "transferDuration": ""
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-3",
+          "tags": [
+            "价格最低"
+          ],
+          "ticketPrice": "349.00",
+          "totalDuration": "120"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "中转",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "TAO",
+                  "arrCityName": "青岛",
+                  "arrDateTime": "2026-11-19 15:20:00",
+                  "arrStationCode": "TAO",
+                  "arrStationName": "胶东国际机场",
+                  "arrStationShortName": "胶东",
+                  "arrTerm": "",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 13:20:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T2",
+                  "depWeekAbbrName": "周四",
+                  "duration": "120",
+                  "marketingTransportName": "山航",
+                  "marketingTransportNo": "SC4964",
+                  "miles": "",
+                  "quantity": "6",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                },
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-20 09:40:00",
+                  "arrStationCode": "PEK",
+                  "arrStationName": "首都国际机场",
+                  "arrStationShortName": "首都",
+                  "arrTerm": "T3",
+                  "arrWeekAbbrName": "周五",
+                  "depCityAbroad": false,
+                  "depCityCode": "TAO",
+                  "depCityName": "青岛",
+                  "depDateTime": "2026-11-20 08:05:00",
+                  "depStationCode": "TAO",
+                  "depStationName": "胶东国际机场",
+                  "depStationShortName": "胶东",
+                  "depTerm": "",
+                  "depWeekAbbrName": "周五",
+                  "duration": "95",
+                  "marketingTransportName": "山航",
+                  "marketingTransportNo": "SC4657",
+                  "miles": "",
+                  "quantity": "10",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "1220",
+              "transferDuration": "1005"
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-4",
+          "tags": null,
+          "ticketPrice": "450.00",
+          "totalDuration": "1220"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "直达",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 15:55:00",
+                  "arrStationCode": "PKX",
+                  "arrStationName": "大兴国际机场",
+                  "arrStationShortName": "大兴",
+                  "arrTerm": "",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 14:00:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T5",
+                  "depWeekAbbrName": "周四",
+                  "duration": "115",
+                  "marketingTransportName": "东航",
+                  "marketingTransportNo": "MU2111",
+                  "miles": "",
+                  "quantity": "7",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "115",
+              "transferDuration": ""
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-5",
+          "tags": null,
+          "ticketPrice": "350.00",
+          "totalDuration": "115"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "直达",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 16:30:00",
+                  "arrStationCode": "PEK",
+                  "arrStationName": "首都国际机场",
+                  "arrStationShortName": "首都",
+                  "arrTerm": "T3",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 14:00:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T2",
+                  "depWeekAbbrName": "周四",
+                  "duration": "150",
+                  "marketingTransportName": "国航",
+                  "marketingTransportNo": "CA1210",
+                  "miles": "",
+                  "quantity": "10",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "150",
+              "transferDuration": ""
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-6",
+          "tags": null,
+          "ticketPrice": "2950.00",
+          "totalDuration": "150"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "直达",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 16:45:00",
+                  "arrStationCode": "PKX",
+                  "arrStationName": "大兴国际机场",
+                  "arrStationShortName": "大兴",
+                  "arrTerm": "",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 14:40:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T5",
+                  "depWeekAbbrName": "周四",
+                  "duration": "125",
+                  "marketingTransportName": "南航",
+                  "marketingTransportNo": "CZ8824",
+                  "miles": "",
+                  "quantity": "9",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "125",
+              "transferDuration": ""
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-7",
+          "tags": null,
+          "ticketPrice": "360.00",
+          "totalDuration": "125"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "中转",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "CSX",
+                  "arrCityName": "长沙",
+                  "arrDateTime": "2026-11-19 16:45:00",
+                  "arrStationCode": "CSX",
+                  "arrStationName": "黄花机场",
+                  "arrStationShortName": "黄花",
+                  "arrTerm": "T2",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 14:55:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T3",
+                  "depWeekAbbrName": "周四",
+                  "duration": "110",
+                  "marketingTransportName": "新海航|长安航空",
+                  "marketingTransportNo": "9H8337",
+                  "miles": "",
+                  "quantity": "10",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                },
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-20 00:10:00",
+                  "arrStationCode": "PEK",
+                  "arrStationName": "首都国际机场",
+                  "arrStationShortName": "首都",
+                  "arrTerm": "T2",
+                  "arrWeekAbbrName": "周五",
+                  "depCityAbroad": false,
+                  "depCityCode": "CSX",
+                  "depCityName": "长沙",
+                  "depDateTime": "2026-11-19 21:45:00",
+                  "depStationCode": "CSX",
+                  "depStationName": "黄花机场",
+                  "depStationShortName": "黄花",
+                  "depTerm": "T2",
+                  "depWeekAbbrName": "周四",
+                  "duration": "145",
+                  "marketingTransportName": "新海航|海南航空",
+                  "marketingTransportNo": "HU7536",
+                  "miles": "",
+                  "quantity": "10",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "555",
+              "transferDuration": "300"
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-8",
+          "tags": null,
+          "ticketPrice": "920.00",
+          "totalDuration": "555"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "中转",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "NKG",
+                  "arrCityName": "南京",
+                  "arrDateTime": "2026-11-19 17:00:00",
+                  "arrStationCode": "NKG",
+                  "arrStationName": "禄口国际机场",
+                  "arrStationShortName": "禄口",
+                  "arrTerm": "T2",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 15:00:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T5",
+                  "depWeekAbbrName": "周四",
+                  "duration": "120",
+                  "marketingTransportName": "东航",
+                  "marketingTransportNo": "MU791",
+                  "miles": "",
+                  "quantity": "10",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                },
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 20:35:00",
+                  "arrStationCode": "PKX",
+                  "arrStationName": "大兴国际机场",
+                  "arrStationShortName": "大兴",
+                  "arrTerm": "",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "NKG",
+                  "depCityName": "南京",
+                  "depDateTime": "2026-11-19 18:30:00",
+                  "depStationCode": "NKG",
+                  "depStationName": "禄口国际机场",
+                  "depStationShortName": "禄口",
+                  "depTerm": "T2",
+                  "depWeekAbbrName": "周四",
+                  "duration": "125",
+                  "marketingTransportName": "东航",
+                  "marketingTransportNo": "MU2851",
+                  "miles": "",
+                  "quantity": "8",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "335",
+              "transferDuration": "90"
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-9",
+          "tags": [
+            "高性价比"
+          ],
+          "ticketPrice": "570.00",
+          "totalDuration": "335"
+        },
+        {
+          "journeys": [
+            {
+              "journeyType": "直达",
+              "segments": [
+                {
+                  "arrCityAbroad": false,
+                  "arrCityCode": "BJS",
+                  "arrCityName": "北京",
+                  "arrDateTime": "2026-11-19 18:00:00",
+                  "arrStationCode": "PEK",
+                  "arrStationName": "首都国际机场",
+                  "arrStationShortName": "首都",
+                  "arrTerm": "T2",
+                  "arrWeekAbbrName": "周四",
+                  "depCityAbroad": false,
+                  "depCityCode": "SIA",
+                  "depCityName": "西安",
+                  "depDateTime": "2026-11-19 15:35:00",
+                  "depStationCode": "XIY",
+                  "depStationName": "咸阳机场",
+                  "depStationShortName": "咸阳",
+                  "depTerm": "T3",
+                  "depWeekAbbrName": "周四",
+                  "duration": "145",
+                  "marketingTransportName": "新海航|海南航空",
+                  "marketingTransportNo": "HU7238",
+                  "miles": "",
+                  "quantity": "9",
+                  "seatClassName": "经济舱",
+                  "stopInfos": null,
+                  "transportType": "飞机"
+                }
+              ],
+              "totalDuration": "145",
+              "transferDuration": ""
+            }
+          ],
+          "jumpUrl": "https://example.com/fixtures/flight-10",
+          "tags": null,
+          "ticketPrice": "390.00",
+          "totalDuration": "145"
+        }
+      ]
+    },
+    "message": "success",
+    "status": 0,
+    "systemMessage": null
+  }
+}

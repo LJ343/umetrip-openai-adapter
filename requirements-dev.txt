@@ -1,2 +1,0 @@
--r requirements.txt
-openai==3.35.1

@@ -1,0 +1,32 @@
+{
+  "verified_on": "2026-11-11",
+  "airport": "嘉兴南湖机场",
+  "iata": "JNH",
+  "stable_facts": [
+    {"fact": "位于浙江省嘉兴市，2025年12月26日正式通航，已开展民航客运；不能说目前仅通航/私人飞行，或仍计划2025年底开客运。", "sources": ["opening", "operator-recruitment"]},
+    {"fact": "为4E级军民合用运输机场，跑道长3400米，航站楼约2.59万平方米；货运枢纽定位与民航客运并不矛盾。", "sources": ["operator"]}
+  ],
+  "dated_updates": [
+    {"as_of": "2026-10-12", "fact": "机场公布2026/27年冬春航季计划，自2026年10月25日开始执行。航季计划不是具体日期实际执飞、余票或票价的证明。", "sources": ["winter-plan"]},
+    {"as_of": "2026-10-12", "fact": "发布材料提到广州、太原、乌鲁木齐方向10月25日新开或增加直飞安排。只能作为当时公布的计划，不能直接保证现在每天有航班。", "sources": ["winter-announcement"]}
+  ],
+  "ground_transport": [
+    {"as_of": "2026-03-27", "fact": "当地交通部门报道机场接驳涉及61路、快3路、98路、古镇旅游专线G2；不是没有公共交通。", "sources": ["transport-update"]},
+    {"as_of": "2025-12-22", "fact": "已公布的接驳点：98路连接嘉兴南站与机场；61路连接秀洲区行政中心公交枢纽站与机场；快3路连接运河新区公交枢纽站与机场；G2串联南湖景区游客服务中心、月河历史街区、机场等。具体站点、首末班、班次和票价可能调整，出行时须查公交运营方或实时地图。不能据此说中国航信门口有上述线路直达。", "sources": ["airport-transport-guide"]},
+    {"as_of": "2025-12-22", "fact": "机场交通指南说明送机可到航站楼二楼出发层，接机在一楼到达层，出租车和网约车有相应上客区；实际按现场指引。没有实时地图接口，不能声称查到当前路况、打车报价、具体行驶路线或耗时。", "sources": ["airport-transport-guide"]}
+  ],
+  "nearby_reference": [
+    {"verified_on": "2026-11-11", "fact": "高德地图登记的‘中国航信嘉兴数据中心’地址为嘉兴市南湖区亚太路1177号。用户提‘嘉兴中国航信1177号’时可提出此匹配并确认，不能捏造为凌公塘路3533号，也不能自动换成北京机构。只有简称时不能保证是同一个办公地点。", "sources": ["travelsky-map"]}
+  ],
+  "freshness": "不写入历史报价、余票、固定车费、导航耗时或保证运行的航班/公交时刻。日期超过资料发布日期时，动态安排需重新核验。航班与车票查询仍须调用对应实时工具；路线和实时打车能力尚无地图接口。",
+  "sources": {
+    "opening": {"title": "浙江省经济信息中心：嘉兴秀洲临空经济借机起飞", "date": "2026-01-30", "url": "https://zjic.zj.gov.cn/ywdh/qyfz/202601/t20260129_23926961.shtml"},
+    "operator": {"title": "浙江省机场集团：浙江省嘉兴机场管理有限公司（其中规划时态较旧，仅用设施参数）", "url": "https://www.zjairports.com/newMember.html"},
+    "operator-recruitment": {"title": "浙江省嘉兴机场管理有限公司招聘简章（高校发布）", "date": "2026-04-05", "url": "https://jdxy.usx.edu.cn/info/1243/8950.htm"},
+    "winter-plan": {"title": "机场供图：2026/27冬春季航班计划", "date": "2026-10-12", "url": "https://tidenews.com.cn/news.html?id=3583344"},
+    "winter-announcement": {"title": "平湖发布：南湖机场冬春航季航班计划出炉", "date": "2026-10-12", "url": "https://tidenews.com.cn/tmh_news.html?id=6acd7386af512b000147341e"},
+    "transport-update": {"title": "嘉兴交通护航旅客出行最后一公里", "date": "2026-03-27", "url": "https://www.jxxznews.com.cn/cjsh/202603/t20260327_7164906.shtml"},
+    "airport-transport-guide": {"title": "嘉兴南湖机场交通指南（看秀洲，来源为机场）", "date": "2025-12-22", "url": "https://www.jxxznews.com.cn/cjsh/202512/t20251222_6546219.shtml"},
+    "travelsky-map": {"title": "高德地图：中国航信嘉兴数据中心", "url": "https://www.amap.com/place/B0FFGH7L7W"}
+  }
+}

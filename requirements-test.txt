@@ -1,0 +1,2 @@
+-r requirements.lock.txt
+openai==3.35.1
