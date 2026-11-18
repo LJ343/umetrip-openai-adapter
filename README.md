@@ -1,5 +1,13 @@
-# 航旅 OpenAI 兼容中转
+# 航旅纵横 / FlyAI 的 OpenAI 兼容接口
 
+将旅行查询服务接入标准 OpenAI Chat Completions 文本对话接口。本仓库使用两个独立分支维护不同的上游；当前默认分支 **main 对接航旅纵横 qianrang**。
+
+- **[main：航旅纵横](https://github.com/LJ343/umetrip-openai-adapter/tree/main)**：现有8000服务的协议适配器，对接航旅纵横上游 SSE，提供流式、非流式、会话适配及卡片清理。查询与业务工具由航旅纵横上游调度，无需另配大模型。
+- **[codex/flyai：FlyAI](https://github.com/LJ343/umetrip-openai-adapter/tree/codex/flyai)**：独立8002服务，通过兼容 OpenAI 工具调用的大模型调度 FlyAI 官方 CLI，支持八类旅行查询与多轮追问，无需安装 OpenClaw。需要独立配置大模型 Key、FlyAI Key 和接口访问 Key，安装步骤见该分支 README。
+
+两个分支的源码、配置、依赖和服务单元分别维护。FlyAI 分支不能直接覆盖航旅纵横服务目录；新增8002服务应独立部署，不替换或重启8000。仓库不提供实际 API Key、私有会话或生产原始日志。
+
+以下说明仅针对 **main / 航旅纵横**，其中带日期的测试与运维记录为历史资料，不代表当前票价、余票或最新业务状态。
 
 > 2026-10-22 维护说明：下方早期灰度测试只作历史记录。生产环境的广泛测试未复现固定约60秒断流；机票报价在上游更新后已恢复返回航班和价格。城市/机场范围理解与部分业务知识仍有上游问题。个人身份、真实预订、支付、值机和退改签办理尚未验收。卡片引导语清理与完整回退见 [OPERATIONS.md](OPERATIONS.md)。
 
